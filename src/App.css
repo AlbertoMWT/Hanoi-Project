@@ -1,0 +1,206 @@
+.navs {
+  position: static;
+  z-index: 1000;
+  height: 55px;
+}
+.text-title {
+  font-weight: 700;
+}
+
+.border-radius {
+  border-radius: 15px;
+}
+.content {
+  /* border: 1px solid grey; */
+  /* display: inline-flex; */
+  display: flex;
+  font-family: sans-serif;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+  /* background: #eee8e8e1;  */
+}
+
+.column-container {
+  align-items: flex-end;
+  /* border: 2px solid grey;
+  background: #eee8e8e1; */
+  /* border-bottom: url(images/title-borderbottom.jpg); */
+  border-bottom: 35px solid #c8a165;
+  height: 80vh;
+  position: relative;
+  width: 33.33%;
+  z-index: 1;
+}
+
+.base-column {
+  height: 20px;
+  width: auto;
+  background-color: #cc0d6c;
+}
+
+.center-bar {
+  background-color: #c8a165;
+  /* background-image: url(https://img.freepik.com/foto-gratis/fondo-madera-natural_24837-269.jpg?w=2000); */
+  width: 16px;
+  height: 99%;
+  box-shadow: -8px 1px 2px -1px #aaa;
+  /* border: 1px solid rgba(252, 146, 8, 0.747); */
+  position: absolute;
+  left: 48%;
+  margin-top: 5px;
+  z-index: -1;
+}
+
+.tile {
+  background-color: #cc0d6c;
+  border: 2px solid rgba(0, 0, 0, 0.321);
+  box-shadow: -8px 1px 2px -1px #aaa;
+
+  border-radius: 20px;
+  margin-top: 20px;
+  height: 35px;
+  margin: auto;
+  z-index: 10;
+}
+
+#Tile-1 {
+  background-color: #cc0d6c;
+  border: 2px solid rgba(0, 0, 0, 0.321);
+  box-shadow: -8px 1px 2px -1px #aaa;
+  border-radius: 20px;
+  /* width: 30px; */
+  height: 40px;
+  margin: auto;
+  z-index: 10;
+}
+
+#Tile-2 {
+  background-color: #cc0d6c;
+  box-shadow: -8px 1px 2px -1px #aaa;
+  border: 2px solid rgba(0, 0, 0, 0.321);
+  border-radius: 20px;
+  height: 40px;
+  margin: auto;
+  z-index: 10;
+}
+
+#Tile-3 {
+  background-color: #cc0d6c;
+  box-shadow: -8px 1px 2px -1px #aaa;
+  border: 2px solid rgba(0, 0, 0, 0.321);
+  border-radius: 20px;
+  height: 40px;
+  margin: auto;
+  z-index: 10;
+}
+#Tile-4 {
+  background-color: #cc0d6c;
+  box-shadow: -8px 1px 2px -1px #aaa;
+  border: 2px solid rgba(0, 0, 0, 0.321);
+  border-radius: 20px;
+  height: 40px;
+  margin: auto;
+  z-index: 10;
+}
+#Tile-5 {
+  background-color: #cc0d6c;
+  box-shadow: -8px 1px 2px -1px #aaa;
+  border: 2px solid rgba(0, 0, 0, 0.321);
+  border-radius: 20px;
+  height: 40px;
+  margin: auto;
+  z-index: 10;
+}
+
+#Tile-6 {
+  background-color: #cc0d6c;
+  border: 2px solid rgba(0, 0, 0, 0.321);
+  border-radius: 20px;
+  height: 40px;
+  margin: auto;
+  z-index: 10;
+}
+#Tile-7 {
+  background-color: #cc0d6c;
+  border: 2px solid rgba(0, 0, 0, 0.321);
+  border-radius: 20px;
+  height: 40px;
+  margin: auto;
+  z-index: 10;
+}
+
+#Tile-8 {
+  background-color: #cc0d6c;
+  border: 2px solid rgba(0, 0, 0, 0.321);
+  border-radius: 20px;
+  height: 40px;
+  margin: auto;
+  z-index: 10;
+}
+#Tile-9 {
+  background-color: #cc0d6c;
+  border: 2px solid rgba(0, 0, 0, 0.321);
+  border-radius: 20px;
+  height: 40px;
+  margin: auto;
+  z-index: 10;
+}
+#Tile-10 {
+  background-color: #cc0d6c;
+  border: 2px solid rgba(0, 0, 0, 0.321);
+  border-radius: 20px;
+  height: 40px;
+  margin: auto;
+  z-index: 10;
+}
+.win-message {
+  background: #dc2424; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4a569d,
+    #dc2424
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4a569d,
+    #dc2424
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border-radius: 10px;
+  color: #fff;
+  font-size: 42px;
+  font-weight: 700;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  text-shadow: 1px 1px #000;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  z-index: 20;
+}
+
+.win-subtitle {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.win-number {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.blueback {
+  background-color: #3f3dab;
+}
+
+.iconimg {
+  /* border: 1px solid #ddd; */
+  /* border-radius: 4px; */
+  height: 30px;
+  width: 35px;
+  margin-bottom: 6.5px;
+}
